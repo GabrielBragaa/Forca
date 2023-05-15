@@ -28,7 +28,7 @@ export default function App() {
   }
 
   function tentativaLetra(letra) {
-    letra.setAttribute('disabled');
+
     let letrasTentadas = [...letrasClicadas];
     letrasTentadas.push(letra);
     setLetrasClicadas(letrasTentadas);
